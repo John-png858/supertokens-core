@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Two-Factor Account Login</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Two-Factor Account Login</h1>
+    <form id="loginForm" onsubmit="login(event)">
+      <input type="text" id="username" placeholder="Username" required>
+      <input type="password" id="password1" placeholder="Password 1" required>
+      <input type="password" id="password2" placeholder="Password 2" required>
+      <button type="submit">Log In</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
